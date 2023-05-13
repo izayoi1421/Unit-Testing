@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="7" assertions="1" errors="6" warnings="0" failures="0" skipped="0" time="0.149513">
+    <testsuite name="Application Test Suite" tests="7" assertions="1" errors="6" warnings="0" failures="0" skipped="0" time="0.149513">
+      <testsuite name="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" tests="6" assertions="0" errors="6" warnings="0" failures="0" skipped="0" time="0.119121">
+        <testcase name="testIndex" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="22" assertions="0" time="0.101286">
+          <error type="Error">AuthTest::testIndex
+Error: Call to undefined method AuthTest::request()
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:25</error>
+        </testcase>
+        <testcase name="testLogin" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="34" assertions="0" time="0.003452">
+          <error type="Error">AuthTest::testLogin
+Error: Call to undefined method AuthTest::request()
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:37</error>
+        </testcase>
+        <testcase name="testRegistration" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="47" assertions="0" time="0.003504">
+          <error type="Error">AuthTest::testRegistration
+Error: Call to undefined method AuthTest::request()
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:50</error>
+        </testcase>
+        <testcase name="testVerify" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="56" assertions="0" time="0.003808">
+          <error type="PHPUnit\Framework\RiskyTestError">AuthTest::testVerify
+This test did not perform any assertions
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:56</error>
+        </testcase>
+        <testcase name="testForgotPassword" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="61" assertions="0" time="0.003540">
+          <error type="Error">AuthTest::testForgotPassword
+Error: Call to undefined method AuthTest::request()
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:64</error>
+        </testcase>
+        <testcase name="testChangePassword" class="AuthTest" classname="AuthTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php" line="70" assertions="0" time="0.003531">
+          <error type="PHPUnit\Framework\RiskyTestError">AuthTest::testChangePassword
+This test did not perform any assertions
+
+C:\xampp\htdocs\ComplaintMS-CI\application\tests\AuthControllerTest.php:70</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="ReportTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\ReportTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.030392">
+        <testcase name="testGetAll" class="ReportTest" classname="ReportTest" file="C:\xampp\htdocs\ComplaintMS-CI\application\tests\ReportTest.php" line="16" assertions="1" time="0.030392"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
